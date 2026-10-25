@@ -37,7 +37,6 @@ The following screenshots document the memory configuration before enabling XMP 
 
 The initial memory operating speed was recorded as 2400 MT/s with the BIOS memory setting on Auto. These screenshots establish the baseline for comparison with the subsequent XMP Profile 1 configuration.
 
-
 ## Configuration Change
 
 XMP Profile 1 was selected in UEFI/BIOS.
@@ -49,10 +48,16 @@ The profile specifies:
 
 ## Evidence 2 — XMP Profile 1 Configuration
 
-XMP Profile 1 was enabled in UEFI/BIOS to configure the Kingston memory
-for its rated DDR4-3200 MT/s transfer rate.
+XMP 2.0 Profile 1 specifies DDR4-3200 MT/s, timings of
+16-18-18-36 and a DRAM voltage of 1.35 V.
 
-The selected profile specifies timings of 16-18-18-36 at 1.35 V.
+### BIOS Profile Selection
+
+![ASRock BIOS XMP profile selection](evidence/02.0.0-changed-ram-configuration.jpeg)
+
+This photograph records the BIOS profile-selection menu and the
+available XMP profiles. Auto is highlighted in this capture;
+the subsequent MemTest86 screenshot confirms operation at 3200 MT/s.
 
 ### MemTest86 — Intermediate Result 1
 
@@ -62,9 +67,12 @@ The selected profile specifies timings of 16-18-18-36 at 1.35 V.
 
 ![MemTest86 DDR4-3200 progress, second capture](evidence/02.1-memtest-3200-progress.jpeg)
 
-Both screenshots document the test in progress. At the time of capture,
-MemTest86 reported zero errors. These are intermediate results, not the
-final stability-test outcome.
+### MemTest86 — Intermediate Result 3
+
+![MemTest86 DDR4-3200 progress, third capture](evidence/02.2-memtest-3200-progress.jpeg)
+
+At the time of these captures, MemTest86 reported zero errors.
+The final outcome will be recorded after all four passes complete.
 
 ## Validation Procedure
 
