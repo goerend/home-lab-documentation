@@ -59,6 +59,14 @@ This photograph records the BIOS profile-selection menu and the
 available XMP profiles. Auto is highlighted in this capture;
 the subsequent MemTest86 screenshot confirms operation at 3200 MT/s.
 
+### Confirmed XMP Profile 1 Settings
+
+![XMP Profile 1 selected in ASRock UEFI](evidence/02.0.1-xmp-profile-1-selected.jpeg)
+
+The BIOS screenshot confirms that XMP 2.0 Profile 1 is selected.
+The displayed configuration is DDR4-3200 MT/s, timings of
+16-18-18-36 and a DRAM voltage of 1.35 V.
+
 ### MemTest86 — Intermediate Result 1
 
 ![MemTest86 DDR4-3200 progress](evidence/02.0-memtest-3200-progress.jpeg)
@@ -109,6 +117,15 @@ The final outcome will be recorded after all four passes complete.
 ![MemTest86 final result summary](evidence/03.1-memtest-3200-summary.jpeg)
 
 The four-pass test completed without reported memory errors at DDR4-3200 MT/s. This provides evidence of stability under the test conditions used, but does not guarantee stability under every possible workload.
+
+### Per-Test Error Summary
+
+![MemTest86 per-test error summary](evidence/03.2-memtest-error-summary.jpeg)
+
+The MemTest86 error summary reports zero errors for tests 0–13.
+Together with the completed four-pass result, this supports the
+conclusion that the memory passed the diagnostic under the tested
+configuration.
 
 ## Conclusion
 
