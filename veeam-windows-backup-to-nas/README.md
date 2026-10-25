@@ -52,7 +52,11 @@ Rather than claiming a successful migration, this project records the outcome ac
 
 The new daily backup job is operational, with backup data written to the NAS share on the 18 TB WD hard drive.
 
-**Recovery validation:** A file-level restore test and verification of the restored file will be documented once completed.
+**Recovery validation:**
+
+File-level recovery: Completed. The restored file was verified against the original using SHA-256 checksums.
+
+Full-system recovery: Not tested.
 
 ## Lessons Learned
 
@@ -85,7 +89,7 @@ The job is configured to use an SMB shared folder on the NAS. The destination pa
 
 ### 4. Recent Backup Status
 
-The Veeam Agent dashboard displays a green status indicator and reports the time elapsed since the last backup. This provides a snapshot of the reported backup status; detailed session history and recovery testing are separate validation steps.
+The Veeam Agent dashboard displays a green status indicator and reports the time elapsed since the last backup. This provides a snapshot of the reported backup status. Detailed backup session history is not shown in this screenshot; file-level recovery and integrity verification are documented below.
 
 ![Veeam Agent dashboard showing recent backup status](screenshots/04-backup-dashboard.png)
 
