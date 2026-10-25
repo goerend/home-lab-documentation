@@ -61,4 +61,32 @@ The new daily backup job is operational, with backup data written to the NAS sha
 
 ## Evidence and Documentation
 
-Screenshots and supporting notes will be added as the project documentation develops. Before publishing, screenshots will be checked for credentials, recovery codes, private network details, and other sensitive information.
+The following screenshots document the backup configuration, schedule, NAS destination, and recent backup status. Sensitive information has been redacted before publication.
+
+### 1. Whole-Computer Backup Configuration
+
+The backup mode is configured as **Entire computer**, providing an image-based backup of the Windows PC.
+
+![Veeam Agent configured for an entire-computer backup](screenshots/01-backup-configuration.png)
+
+### 2. Daily Backup Schedule
+
+The job is configured to run daily at 00:30. The displayed settings specify that the backup is skipped if the computer is powered off at the scheduled time.
+
+![Veeam daily backup schedule](screenshots/02-backup-schedule.png)
+
+### 3. NAS Backup Destination
+
+The job is configured to use an SMB shared folder on the NAS. The destination path and account details have been partially redacted for privacy.
+
+![Veeam shared-folder backup destination](screenshots/03-backup-destination.png)
+
+### 4. Recent Backup Status
+
+The Veeam Agent dashboard displays a green status indicator and reports the time elapsed since the last backup. This provides a snapshot of the reported backup status; detailed session history and recovery testing are separate validation steps.
+
+![Veeam Agent dashboard showing recent backup status](screenshots/04-backup-dashboard.png)
+
+### Recovery Validation
+
+A file-level restore test and verification of the restored file will be documented once completed.
