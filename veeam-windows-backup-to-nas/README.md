@@ -38,6 +38,8 @@ The backup workflow is:
 3. Backup data is written to a shared folder hosted by the Debian/OMV server.
 4. The backup files are stored on the 18 TB WD enterprise hard drive.
 
+![Veeam backup architecture](architecture.png)
+
 ## Challenge and Troubleshooting
 
 The original backup job used an external drive with limited available capacity. As the backup files and maintenance operations consumed additional space, managing the available capacity became a concern.
