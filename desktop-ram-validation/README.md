@@ -47,6 +47,25 @@ The profile specifies:
 - Timings: 16-18-18-36
 - DRAM voltage: 1.35 V
 
+## Evidence 2 — XMP Profile 1 Configuration
+
+XMP Profile 1 was enabled in UEFI/BIOS to configure the Kingston memory
+for its rated DDR4-3200 MT/s transfer rate.
+
+The selected profile specifies timings of 16-18-18-36 at 1.35 V.
+
+### MemTest86 — Intermediate Result 1
+
+![MemTest86 DDR4-3200 progress](evidence/02.0-memtest-3200-progress.jpeg)
+
+### MemTest86 — Intermediate Result 2
+
+![MemTest86 DDR4-3200 progress, second capture](evidence/02.1-memtest-3200-progress.jpeg)
+
+Both screenshots document the test in progress. At the time of capture,
+MemTest86 reported zero errors. These are intermediate results, not the
+final stability-test outcome.
+
 ## Validation Procedure
 
 1. Boot MemTest86 from USB media.
