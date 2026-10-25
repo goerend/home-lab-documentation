@@ -21,6 +21,23 @@ Configure the installed Kingston DDR4 memory to operate at its rated 3200 MT/s t
 
 The memory was initially operating at 2400 MT/s with the BIOS memory setting on Auto.
 
+## Evidence 1 — Initial Configuration
+
+The following screenshots document the memory configuration before enabling XMP Profile 1.
+
+### Initial BIOS configuration
+
+![Initial RAM configuration](evidence/01.0-initial-ram-configuration.jpeg)
+
+![Additional initial RAM configuration](evidence/01.1-initial-ram-configuration.jpeg)
+
+### Initial MemTest86 configuration
+
+![MemTest86 at 2400 MT/s](evidence/memtest-2400-initial.jpeg)
+
+The initial memory operating speed was recorded as 2400 MT/s with the BIOS memory setting on Auto. These screenshots establish the baseline for comparison with the subsequent XMP Profile 1 configuration.
+
+
 ## Configuration Change
 
 XMP Profile 1 was selected in UEFI/BIOS.
