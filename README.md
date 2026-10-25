@@ -1,6 +1,6 @@
 # Home Lab Documentation
 
-**Hands-on IT infrastructure, systems administration, hardware diagnostics and backup & recovery.**
+**Hands-on IT infrastructure, systems administration, hardware diagnostics, backup & recovery, and scripting using Bash and Python.**
 
 Welcome to my home lab portfolio. This repository documents practical IT projects, technical investigations and lessons learned while building and maintaining my own computing environment.
 
@@ -31,13 +31,14 @@ This environment provides opportunities to practise administration across Linux 
 ## Projects and Technical Work
 
 ### Hardware Diagnostics and Validation
-[Desktop RAM Configuration and Validation](desktop-ram-validation/README.md)
 
-Configure hardware, establish a baseline, run diagnostic tests and document the results.
+Document hardware configuration changes, establish a baseline, run diagnostic tests, and evaluate the results.
 
-Current work includes validating DDR4 memory at its rated transfer rate using XMP and PassMark MemTest86.
+**Completed project:** Desktop RAM Configuration and Validation — configured Kingston DDR4 memory to operate at 3200 MT/s using XMP Profile 1 and validated the configuration with a four-pass PassMark MemTest86 test.
 
-**Focus areas:** UEFI/BIOS configuration, memory compatibility, diagnostic testing and stability validation.
+[View the Desktop RAM Configuration and Validation project](desktop-ram-validation/README.md)
+
+**Focus areas:** UEFI/BIOS configuration, memory compatibility, diagnostic testing, and stability validation.
 
 ### Storage and NAS Administration
 Evaluate storage devices before putting them into service and document storage design decisions.
@@ -65,6 +66,11 @@ Explore virtual machines, server configuration, network connectivity and infrast
 
 Detailed project reports and supporting evidence will be added as individual projects are completed.
 
+### Python Programming 
+Python programming is an area of ongoing development.
+
+I am currently enrolled in a Python Junior Developer Track and plan to document practical exercises and small scripts as I complete and validate them.
+
 ## How I Document Projects
 
 Where relevant, each project includes:
@@ -84,6 +90,8 @@ Screenshots, command output, configuration examples and test reports are include
 I aim to make technical changes carefully, validate the outcome, preserve recovery options where appropriate, and document the process so it can be understood and repeated.
 
 This is a personal learning environment. The documentation describes practical experience with the specific systems tested; results are not presented as universal guarantees.
+
+Safety note: This portfolio documents experiments in a personal learning environment. Hardware, storage, and system-configuration changes may cause data loss or service disruption if applied incorrectly. Review the instructions carefully, verify commands and device identifiers, and maintain appropriate backups before reproducing a procedure. Proceed at your own risk!
 
 Sensitive information is excluded from public documentation.
 
