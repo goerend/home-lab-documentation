@@ -52,6 +52,8 @@ Document backup procedures and the measures used to protect data against hardwar
 
 Work includes Windows system-image backups with Veeam Agent, recovery media preparation, offline backup copies, off-site cloud backups, and verification procedures.
 
+**Completed project: [Windows PC Backup to NAS Using Veeam](veeam-windows-backup-to-nas/README.md)** — Configured daily whole-computer backups from Windows 11 Pro to a network share on a Debian/OpenMediaVault NAS. Documented storage-capacity issues and an unsuccessful backup-chain migration, then established a new backup job. Verified a file-level restore using matching SHA-256 checksums. Full-system recovery has not been tested.
+
 **Focus areas:** backup planning, verification, recovery readiness and reducing exposure of backup copies.
 
 ### Linux and Systems Administration
