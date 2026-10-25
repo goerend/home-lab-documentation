@@ -91,4 +91,10 @@ The Veeam Agent dashboard displays a green status indicator and reports the time
 
 ### Recovery Validation
 
-A file-level restore test and verification of the restored file will be documented once completed.
+A file-level restore test was completed using the new Veeam backup stored on the NAS.
+
+The restored file was compared with the original file using SHA-256 checksums. Both files had identical checksums, confirming that the restored copy was byte-for-byte identical to the original.
+
+**Result:** Successful file-level restore and integrity verification.
+
+This test validates recovery of the selected file. Full-system recovery has not been validated as part of this test.
