@@ -33,7 +33,7 @@ The following screenshots document the memory configuration before enabling XMP 
 
 ### Initial MemTest86 configuration
 
-![MemTest86 at 2400 MT/s](evidence/memtest-2400-initial.jpeg)
+![MemTest86 at 2400 MT/s](evidence/01.2-memtest-2400-initial.jpeg)
 
 The initial memory operating speed was recorded as 2400 MT/s with the BIOS memory setting on Auto. These screenshots establish the baseline for comparison with the subsequent XMP Profile 1 configuration.
 
