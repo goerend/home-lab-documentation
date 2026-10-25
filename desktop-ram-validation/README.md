@@ -84,18 +84,45 @@ The final outcome will be recorded after all four passes complete.
 
 ## Results
 
-- Test status: In progress
-- Configured transfer rate: 3200 MT/s
-- Passes completed: Pending
-- Errors: Zero reported in the latest recorded screenshot
-- Final elapsed time: Pending
+**Status: PASS**
+
+- **Diagnostic tool:** PassMark MemTest86 Free v11.7
+- **CPU:** AMD Ryzen 5 5600X, 6 cores / 12 threads
+- **Memory:** 32 GB Kingston DDR4, 2 × 16 GB
+- **Operating speed:** DDR4-3200 MT/s, dual-channel
+- **Timings:** 16-18-18-36
+- **MemTest86 passes completed:** 4 of 4
+- **Tests passed:** 48 of 48 (100%)
+- **Memory errors:** 0
+- **ECC errors:** 0
+- **Elapsed time:** 4 hours, 6 minutes, 31 seconds
+- **Test start:** 24 October 2026, 23:48:50
+
+### Final Test Evidence
+
+#### Completed Test
+
+![MemTest86 completed successfully](evidence/03.0-memtest-3200-complete.jpeg)
+
+#### Detailed Result Summary
+
+![MemTest86 final result summary](evidence/03.1-memtest-3200-summary.jpeg)
+
+The four-pass test completed without reported memory errors at DDR4-3200 MT/s. This provides evidence of stability under the test conditions used, but does not guarantee stability under every possible workload.
 
 ## Conclusion
 
-To be completed after the planned test finishes.
+The Kingston 32 GB DDR4 memory kit completed all four MemTest86 passes at 3200 MT/s with zero reported errors.
 
-A clean MemTest86 result provides evidence of memory stability under the tests performed, but does not guarantee stability under every workload.
+The test supports the decision to run the memory at its rated transfer rate using XMP Profile 1 rather than the initial 2400 MT/s Auto configuration.
+
+This result is a positive validation milestone, not a guarantee against all future memory-related faults. Normal system use and further testing under different workloads can provide additional confidence.
 
 ## Lessons Learned
 
-To be completed after reviewing the final results and reflecting on the configuration and testing process.
+- Recording the initial configuration establishes a useful baseline.
+- XMP can enable the memory's rated transfer rate when supported by the hardware.
+- A longer diagnostic test provides more evidence than a short test alone.
+- Screenshots and measured results make technical documentation easier to verify and reproduce.
+- Configuration changes should be validated before treating them as stable.
+
