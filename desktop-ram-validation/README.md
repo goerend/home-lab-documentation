@@ -19,12 +19,12 @@ Configured Kingston DDR4 memory from its initial 2400 MT/s operating speed to 32
 | DRAM voltage | 1.35 V |
 | Tests passed | 48/48 (100%) |
 | Memory errors | 0 |
-| ECC errors | 0 |
+| ECC errors | 0 (not applicable — non-ECC memory) |
 | Test duration | 4 h 6 min 31 sec |
 
 The test completed without reported errors under the tested configuration. However, this does not guarantee stability under every possible workload.
 
-ECC errors: 0 reported by MemTest86. The installed RAM is non-ECC, so this test does not validate ECC error-correction functionality.
+Note: ECC errors: 0 reported by MemTest86. The installed RAM is non-ECC, so this test does not validate ECC error-correction functionality.
 
 ## Test Environment
 
