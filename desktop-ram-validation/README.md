@@ -100,7 +100,8 @@ The displayed configuration is DDR4-3200 MT/s, timings of
 ![MemTest86 DDR4-3200 progress, third capture](evidence/02.2-memtest-3200-progress.jpeg)
 
 At the time of these captures, MemTest86 reported zero errors.
-The final outcome will be recorded after all four passes complete.
+
+The four-pass test subsequently completed with 48 of 48 tests passed and zero reported memory or ECC errors. The detailed results are documented below.
 
 ## Validation Procedure
 
