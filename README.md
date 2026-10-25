@@ -31,6 +31,8 @@ This environment provides opportunities to practise administration across Linux 
 ## Projects and Technical Work
 
 ### Hardware Diagnostics and Validation
+[Desktop RAM Configuration and Validation](desktop-ram-validation/README.md)
+
 Configure hardware, establish a baseline, run diagnostic tests and document the results.
 
 Current work includes validating DDR4 memory at its rated transfer rate using XMP and PassMark MemTest86.
