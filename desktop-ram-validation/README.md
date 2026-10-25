@@ -4,6 +4,26 @@
 
 Configure the installed Kingston DDR4 memory to operate at its rated 3200 MT/s transfer rate and assess stability using MemTest86.
 
+## Project Outcome
+
+**Result: PASS**
+
+Configured Kingston DDR4 memory from its initial 2400 MT/s operating speed to 3200 MT/s using XMP Profile 1, then validated it with a four-pass MemTest86 run.
+
+| Measurement | Result |
+|---|---|
+| Memory | 32 GB Kingston DDR4 (2 × 16 GB) |
+| Initial speed | 2400 MT/s |
+| Tested speed | 3200 MT/s |
+| Timings | 16-18-18-36 |
+| DRAM voltage | 1.35 V |
+| Tests passed | 48/48 (100%) |
+| Memory errors | 0 |
+| ECC errors | 0 |
+| Test duration | 4 h 6 min 31 sec |
+
+The test completed without reported errors under the tested configuration. However, this does not guarantee stability under every possible workload.
+
 ## Test Environment
 
 | Component | Details |
