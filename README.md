@@ -32,6 +32,17 @@ The project documents storage-capacity issues, an unsuccessful backup-chain migr
 
 [**View the full project report →**](veeam-windows-backup-to-nas/README.md)
 
+### Windows 11 and Ubuntu Dual Boot: Secure Boot, LUKS and BitLocker Troubleshooting
+
+Installed Ubuntu 26.04.1 LTS alongside Windows 11 on a Lenovo Legion laptop, configured LUKS disk encryption for Ubuntu, and investigated a Ventoy boot error involving Secure Boot. The project also documents a TPM/BitLocker issue and the subsequent successful encryption.
+
+- **Skills demonstrated:** UEFI boot configuration, disk partition planning, Linux encryption, Windows security, and troubleshooting.
+- **Validation:** Ubuntu's LUKS/LVM layout was inspected with `lsblk -f`; the final BitLocker status reported 100% encryption with protection on.
+- **Outcome:** After Secure Boot was re-enabled, both operating systems booted normally, according to the final tests performed.
+- **Limitation:** The precise cause of the original Ventoy key error was not conclusively established, and the final Secure Boot state was not photographed.
+
+[**View the full project report →**](windows-ubuntu-dual-boot/README.md)
+
 ## Home Lab Overview
 
 I use my home lab to complement my IT studies with practical experience across hardware, operating systems, storage, virtualisation, networking and data protection.
@@ -82,7 +93,9 @@ The project covers daily whole-computer backups from Windows 11 Pro to a network
 
 Develop practical Linux skills through Ubuntu and Debian administration, Bash scripting, command-line exercises and troubleshooting.
 
-**Focus areas:** shell commands, permissions, services, logs, system configuration and repeatable procedures.
+**Completed project:** [Windows 11 and Ubuntu Dual Boot: Secure Boot, LUKS and BitLocker Troubleshooting](windows-ubuntu-dual-boot/README.md)
+
+**Focus areas:** shell commands, permissions, services, logs, system configuration, boot troubleshooting, encryption and repeatable procedures.
 
 ### Virtualisation and Networking
 
